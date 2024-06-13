@@ -1,0 +1,43 @@
+.container {
+    box-sizing: border-box;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    padding: 6px 12px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 3px hsl(0, 0%, 70%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.input {
+    border: none;
+    width: 200px;
+    outline: none;
+    font-size: 16px;
+    margin-left: 4px;
+    transition: all .3s ease;
+}
+
+.input::placeholder {
+    color: hsl(0, 0%, 80%);
+}
+
+.icon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.hide {
+    width: 0;
+    margin: 0;
+    padding: 0;
+}
